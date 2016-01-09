@@ -111,8 +111,8 @@ ul, ol{
 #tf-menu a.navbar-brand {
 text-transform: lowercase;
 font-family: 'Raleway', serif;
-font-size: 20px;
-color: #fff;
+font-size: 22px;
+color: #aaa;
 font-weight: 600;
 }
 
@@ -653,14 +653,11 @@ nav#footer p{
 #footer i.fa {
 	height: 30px;
 	width: 30px;
-	border: 2px solid #8c8c8c;
 	font-size: 20px;
 	padding: 4px 5px;
 	border-radius: 50%;
-	color: #8c8c8c;
+	color: #b9b9b9;
 	transition: all 0.5s;
 }
 #footer i.fa:hover{
-	background: #FF9555;
-	border-color: #FF9555;
-	color: #ffffff;
+	color: #FF9555;
