@@ -85,6 +85,9 @@ sub {
   bottom: -.25em;
 }
 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   border: 0;
 }
 svg:not(:root) {
@@ -1116,6 +1119,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+
 }
 .img-rounded {
   border-radius: 6px;
@@ -1562,6 +1566,12 @@ pre code {
   overflow-y: scroll;
 }
 .container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.desc {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
