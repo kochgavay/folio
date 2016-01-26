@@ -20,18 +20,20 @@ h2{
 	margin:  0;
 }
 h3{
-font-size: 25px;
+font-size: 22px;
 font-weight: 200;
 color:#dbdbdb;
 border-bottom:1px solid #e6e6e6;
 margin-bottom: 20px;
 }
 h4{
+	font-size: 16px;
 	text-transform: uppercase;
 	font-weight: 700;
 	color: #505050;
 }
 h4 span {
+		font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: #FF9555;
@@ -48,27 +50,35 @@ h6{
 	color:#aaa;
 }
 p{
-	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	font-family: 'Cantarell', sans-serif;
 	margin-bottom: 5px;
 }
 p.intro{
-	font-size: 16px;
+	font-size: 14px;
 	margin: 12px 0 0;
 	line-height: 24px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Cantarell', sans-serif;
+}
+p.contact{
+	font-size: 14px;
+	margin: 12px 0 0;
+	line-height: 24px;
+	font-family: 'Cantarell', sans-serif;
 }
 p.lead{
 	font-size: 18px;
-	margin: 12px 0 0;
+	margin: 15px 0 0;
 	line-height: 24px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Cantarell', sans-serif;
+
 }
 p.about{
 	font-size: 16px;
 	margin: 12px 0 0;
 	text-align: left;
 	line-height: 28px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Cantarell', sans-serif;
 }
 a{ color: #FF9555;}
 a:hover,
@@ -242,9 +252,9 @@ a.fa.fa-angle-down:hover{
 	color: #ffffff;
 	border: 2px solid #FF9555;
 }
-/*architecture section*/
-#tf-architecture{
-	background: url(../img/portfolio/LightUp/lightup_home.jpg);
+/*museum section*/
+#tf-museum{
+	background: url(../img/portfolio/museum/museum_home.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -252,7 +262,7 @@ a.fa.fa-angle-down:hover{
 	color: #cfcfcf;
 }
 
-#tf-architecture .overlay{
+#tf-museum .overlay{
 	background: -moz-linear-gradient(top,  rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.8)), color-stop(17%,rgba(0,0,0,0.73)), color-stop(35%,rgba(0,0,0,0.66)), color-stop(62%,rgba(0,0,0,0.55)), color-stop(100%,rgba(0,0,0,0.4))); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.95) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Chrome10+,Safari5.1+ */
@@ -263,7 +273,7 @@ a.fa.fa-angle-down:hover{
 	height: 750px;
 	background-attachment: fixed;
 }
-#tf-architecture p.lead{
+#tf-museum p.lead{
 	color: #e3e3e3;
 }
 
@@ -489,7 +499,7 @@ a.fa.fa-angle-down:hover{
 
 /* About Section */
 #tf-resume{
-	padding: 80px 0;
+	padding: 50px 0;
 }
 ul.about-list{ margin: 30px 0 0 ;}
 ul.about-list li{
@@ -677,7 +687,7 @@ img.img-circle.team-img {
 /* Gallery Section
 ==============================*/
 #tf-works{
-	padding: 80px 0;
+	padding: 50px 0;
 }
 .categories{
 	padding: 10px 0;
@@ -932,8 +942,8 @@ ol.type li a.active { font-weight: 700; }
 }
 /* Contact Section */
 #tf-contact{
-	padding: 80px 0;
-	background-color: #dbdbdb
+	padding: 20px 0px 20px 0px;
+	background-color: #f0f0f0
 }
 
 label {
@@ -994,11 +1004,24 @@ button.btn.tf-btn.btn-default {
 	outline: none;
 	outline-offset: none;
 }
+#tf-contact i.fa {
+	height: 30px;
+	width: 30px;
+	font-size: 18px;
+	padding: 4px 5px;
+	border-radius: 50%;
+	color: #FF9555;
+	transition: all 0.5s;
+}
+#tf-contact i.fa:hover{
+	color: #660066;
+}
+
 /* Footer */
 nav#footer{
 	background: #222222;
-	color: #ffffff;
-	padding: 20px 0 15px 0;
+	color: #d0d0d0;
+	padding: 25px 0 25px 0;
 }
 nav#footer .fnav{ vertical-align: middle;}
 ul.footer-social li{
@@ -1015,8 +1038,9 @@ nav#footer p{
 	font-size: 20px;
 	padding: 4px 5px;
 	border-radius: 50%;
-	color: #b9b9b9;
+	color: #b0b0b0;
 	transition: all 0.5s;
 }
 #footer i.fa:hover{
 	color: #FF9555;
+}
