@@ -51,26 +51,26 @@ h6{
 }
 p{
 	font-size: 15px;
-	font-family: 'Cantarell', sans-serif;
+	font-family: 'Lato', sans-serif;
 	margin-bottom: 5px;
 }
 p.intro{
 	font-size: 14px;
 	margin: 12px 0 0;
 	line-height: 24px;
-	font-family: 'Cantarell', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 p.contact{
 	font-size: 14px;
 	margin: 12px 0 0;
 	line-height: 24px;
-	font-family: 'Cantarell', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 p.lead{
 	font-size: 18px;
 	margin: 15px 0 0;
 	line-height: 24px;
-	font-family: 'Cantarell', sans-serif;
+	font-family: 'Lato', sans-serif;
 
 }
 p.about{
@@ -78,7 +78,7 @@ p.about{
 	margin: 12px 0 0;
 	text-align: left;
 	line-height: 28px;
-	font-family: 'Cantarell', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 a{ color: #FF9555;}
 a:hover,
