@@ -6,7 +6,12 @@
   -moz-user-select: none;
   user-select: none;
 }
-
+.pace-running{
+  -webkit-filter: blur(3px);
+    filter: blur(3px);
+  opacity: .80;
+  background-color: #aaa;
+}
 .pace-inactive {
   display: none;
 }
@@ -18,5 +23,5 @@
   top: 0;
   right: 100%;
   width: 100%;
-  height: 4px;
+  height: 3px;
 }
